@@ -1,0 +1,34 @@
+.bnha-card{
+  display:grid;
+  place-items:center;
+  text-align:center;
+  gap:10px;
+  padding:16px;
+  border-radius:16px;
+  background:rgba(0,0,0,.35);
+  border:2px solid #ffd400; 
+  box-shadow:0 10px 30px rgba(0,0,0,.45), inset 0 0 0 4px rgba(255,212,0,.15);
+}
+.bnha-avatar{
+  width:260px;
+  height:260px;
+  object-fit:cover;
+  border-radius:14px;
+  border:3px solid #e53935; 
+  background:#0b0d14;
+}
+.bnha-title{
+  margin:6px 0 0;
+  font-size:28px;
+  letter-spacing:.3px;
+  text-shadow:0 2px 0 #000, 0 0 16px rgba(255,212,0,.25);
+}
+.bnha-pill{
+  display:inline-block;
+  padding:6px 10px;
+  border-radius:999px;
+  color:#0b0d14;
+  font-weight:800;
+}
+.bnha-pill--cyan{ background:#00c2ff; }
+.bnha-pill--yellow{ background:#ffd400; }
